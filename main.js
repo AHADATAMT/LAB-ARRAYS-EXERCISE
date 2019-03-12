@@ -75,7 +75,7 @@ resultArr = numbers.map((num) => {
 
 // * Print out an array of the powers of two as shown by this array (e.g. 2, 4, 8, 16 ....).
 resultArr = numbers.map((num) => {
-    return num * 2;
+    return Math.pow(num);
 });
 
 // Sort all the inventors in alphabetical order, A-Z.
